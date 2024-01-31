@@ -1,8 +1,8 @@
 {
   "name": "express-api",
   "version": "1.0.0",
-  "description": "first try",
-  "main": "index.js",
+  "description": "Express REST API",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/kugelfest1/nodejs_sqlite3_tut.git"
   },
-  "author": "",
+  "author": "ed",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kugelfest1/nodejs_sqlite3_tut/issues"
+  },
+  "scripts": {
+  "start": "node server.js",
+  "test": "echo "Error: no test specified" && exit 1"
   },
   "homepage": "https://github.com/kugelfest1/nodejs_sqlite3_tut#readme",
   "dependencies": {
